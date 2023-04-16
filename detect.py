@@ -87,7 +87,7 @@ for batch_i, (img_paths, input_imgs) in enumerate(dataloader):
 
 # Bounding-box colors
 #cmap = plt.get_cmap('tab20b')
-cmap = plt.get_cmap('Vega20b')
+cmap = plt.get_cmap('Accent')
 colors = [cmap(i) for i in np.linspace(0, 1, 20)]
 
 print ('\nSaving images:')
